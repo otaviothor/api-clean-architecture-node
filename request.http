@@ -1,0 +1,12 @@
+@hostname = http://localhost:3000/v1
+
+###
+GET {{hostname}}/books HTTP/1.1
+
+###
+POST https://localhost:5001/v1/categories HTTP/1.1
+content-type: application/json
+
+{
+	"title": "Categoria 03"
+}
