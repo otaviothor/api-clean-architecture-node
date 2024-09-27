@@ -19,6 +19,10 @@ export class BookController {
       return res.status(400).json({ errors });
     }
 
-    // Proceed with the creation logic...
+    // TODO implements create
   }
+
+  // TODO implements findById
+  // TODO implements update
+  // TODO implements delete
 }

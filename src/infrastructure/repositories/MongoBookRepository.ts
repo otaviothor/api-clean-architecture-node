@@ -1,4 +1,3 @@
-import { Book } from "../../domain/entities/Book";
 import { IBookRepository } from "../../domain/interfaces/IBookRepository";
 import { BookModel, IBook } from "../models/BookModel";
 
